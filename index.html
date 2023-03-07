@@ -1,34 +1,73 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moringa Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header section with navigation bar -->
-    <nav>
-        <ul>
-            
-        </ul>
-    </nav>
-
-    <!-- Main section with hero, about, menu, and contact sections -->]
+      <!-- Header section with navigation bar -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- Main section with hero, about, menu, and contact sections -->
+      <main>
+        <!-- Hero section with welcome message, description, and button -->
+        <section id="hero">
+          <h1>Welcome to Restaurant Name</h1>
+          <p>Discover our delicious menu and experience our warm hospitality.</p>
+          <button>View Menu</button>
+        </section>
         
-       <!-- Hero section with welcome message, description, and button -->
-
-       <!-- About section with information about the restaurant -->
-
-       <!-- Menu section with a list of menu items -->
-
-       <!-- Contact section with a form for customers to contact the restaurant -->
-
-        <!-- Footer section with copyright information -->
-
-       
-
-
-    
-</body>
-</html>
+        <!-- About section with information about the restaurant -->
+        <section id="about">
+          <h2>About Us</h2>
+          <p>We are a family-owned restaurant dedicated to serving delicious food using only the freshest ingredients.</p>
+        </section>
+        
+        <!-- Menu section with a list of menu items -->
+        <section id="menu">
+          <h2>Our Menu</h2>
+          <p>Explore our wide range of dishes, from appetizers to entrees to desserts.</p>
+          <ul>
+            <li><h3>Appetizers</h3></li>
+            <li><h3>Entrees</h3></li>
+            <li><h3>Desserts</h3></li>
+          </ul>
+        </section>
+        
+        <!-- Contact section with a form for customers to contact the restaurant -->
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <p>Get in touch with us for reservations or any inquiries.</p>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </main>
+      
+      <!-- Footer section with copyright information -->
+      <footer>
+        <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+      </footer>
+    </body>
+  </html>
